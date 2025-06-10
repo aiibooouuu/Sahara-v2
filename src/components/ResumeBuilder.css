@@ -1,0 +1,399 @@
+/* --- ResumeBuilder Professional Form Styles (Updated Colors & Alignment) --- */
+
+/* Modal layout */
+.resume-modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(10, 23, 78, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+}
+
+h3{
+  color: #1b263b;
+}
+.resume-modal-content {
+  background: #fff;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(27, 38, 59, 0.18);
+  width: 80vw;
+  position: relative;
+  text-align: center;
+}
+
+.resume-modal-content.resume-builder-modal {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  background: #fff;
+  padding: 2.5rem 2.5rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(27, 38, 59, 0.18);
+  min-width: 1100px;
+  max-width: 98vw;
+  width: 90vw;
+  position: relative;
+  min-height: 700px;
+  max-height: 92vh;
+}
+
+/* Close button */
+.resume-modal-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #1b263b;
+  cursor: pointer;
+  z-index: 2;
+  transition: color 0.2s;
+}
+.resume-modal-close:hover {
+  color: #e53935;
+}
+
+/* Left form */
+.resume-builder-left {
+  flex: 1;
+  width: 50%;
+  min-width: 400px;
+  
+  padding: 0 2.5rem 0 0;
+  border-right: 1.5px solid #1b263b;
+  background: #f8fafc;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.resume-form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.resume-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #1b263b;
+  letter-spacing: 0.2px;
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.resume-form input,
+.resume-form textarea {
+  width: 100%;
+  padding: 0.45rem 0.9rem;
+  border-radius: 7px;
+  border: 1.5px solid #1b263b;
+  font-size: 1rem;
+  margin-top: 0.18rem;
+  margin-bottom: 0.7rem;
+  background: #fff;
+  color: #1b263b;
+  transition: border 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(27, 38, 59, 0.06);
+  min-height: 48px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.resume-form input:focus,
+.resume-form textarea:focus {
+  border: 1.5px solid #1976d2;
+  outline: none;
+  background: #f1f6fa;
+  box-shadow: 0 2px 8px rgba(27, 38, 59, 0.10);
+}
+
+.resume-form textarea {
+  min-height: 48px;
+  resize: vertical;
+}
+
+.resume-section-label {
+  font-weight: 700;
+  color: #1b263b;
+  margin: 1.2rem 0 0.5rem 0;
+  font-size: 1.08rem;
+  letter-spacing: 0.3px;
+}
+
+.resume-inline-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.resume-inline-group input {
+  flex: 1 1 120px;
+  min-width: 90px;
+}
+
+.resume-inline-group button {
+  padding: 0.3rem 1rem;
+  border-radius: 6px;
+  border: none;
+  background: #1b263b;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(27, 38, 59, 0.08);
+}
+.resume-inline-group button:hover {
+  background: #1565c0;
+}
+
+.resume-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5rem 0;
+}
+.resume-list li {
+  background: #f1f6fa;
+  border-radius: 5px;
+  padding: 0.3rem 0.7rem;
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1b263b;
+  font-size: 0.98rem;
+  box-shadow: 0 1px 2px rgba(27, 38, 59, 0.04);
+}
+.resume-list li button {
+  background: none;
+  border: none;
+  color: #e53935;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-left: 0.7rem;
+  transition: color 0.2s;
+}
+.resume-list li button:hover {
+  color: #b71c1c;
+}
+
+/* Right preview */
+.resume-builder-right {
+  flex: 2;
+
+
+  padding: 0 0 0 2.5rem;
+  background: #f8fafc;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.resume-preview {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(27, 38, 59, 0.07);
+  padding: 2.2rem 2.5rem 2rem 2.5rem;
+  color: #1b263b;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1.5px solid #1b263b;
+}
+.resume-preview h1 {
+  font-size: 2.1rem;
+  color: #1b263b;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center; /* Center the name */
+}
+.resume-contact {
+  font-size: 1rem;
+  color: #1b263b;
+  margin-bottom: 1.1rem;
+  text-align: center; /* Center the contact info */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center; /* Center horizontally */
+}
+.resume-preview hr {
+  border: none;
+  border-top: 1.5px solid #1b263b;
+  margin: 1.1rem 0 1.1rem 0;
+}
+
+.resume-section {
+  margin-bottom: 0.7rem;
+  text-align: left;
+}
+.resume-section h2 {
+  font-size: 1.08rem;
+  color: #1b263b;
+  margin-bottom: 0.2rem;
+  margin-top: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-left: 3px solid #1b263b;
+  padding-left: 0.5rem;
+}
+.resume-section ul {
+  margin: 0.2rem 0 0.5rem 1.2rem;
+  padding: 0;
+  list-style: disc inside;
+}
+.resume-section li {
+  margin-bottom: 0.2rem;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+.resume-section p {
+  margin: 0.2rem 0 0.5rem 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+/* Skills section */
+.resume-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-left: 0;
+  list-style: none;
+  padding: 0;
+}
+.resume-skills-list li {
+  background: #1b263b;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.97rem;
+  margin-bottom: 0.2rem;
+  list-style: none;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.resume-save-btn {
+  margin-top: 1.2rem;
+  padding: 0.7rem 2.2rem;
+  background: #1b263b;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 8px rgba(27, 38, 59, 0.10);
+}
+.resume-save-btn:hover {
+  background: #1565c0;
+}
+
+/* Skill selectors */
+.resume-skill-selectors {
+  margin-bottom: 0.7rem;
+}
+.resume-skill-category {
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #1b263b;
+  font-size: 0.97rem;
+  margin-bottom: 0.5rem;
+  background: #f8fafc;
+}
+.resume-skill-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.resume-skill-category-block {
+  margin-bottom: 0.2rem;
+}
+.resume-skill-category-title {
+  font-weight: 600;
+  color: #1b263b;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+.resume-skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.resume-skill-btn {
+  background: #fff;
+  color: #1b263b;
+  border: 1px solid #1b263b;
+  border-radius: 4px;
+  padding: 0.2rem 0.9rem;
+  font-size: 0.97rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(27, 38, 59, 0.06);
+}
+.resume-skill-btn.selected,
+.resume-skill-btn:hover {
+  background: #1b263b;
+  color: #fff;
+  border-color: #1b263b;
+}
+
+/* Make sure the preview is scrollable if content is long */
+.resume-builder-right {
+  overflow-y: auto;
+  max-height: 80vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 1100px) {
+  .resume-modal-content.resume-builder-modal {
+    flex-direction: column;
+    min-width: 98vw;
+    max-width: 98vw;
+    width: 98vw;
+    min-height: 0;
+    max-height: 98vh;
+    padding: 1.2rem 0.5rem;
+  }
+  .resume-builder-left,
+  .resume-builder-right {
+    max-width: 100vw;
+    min-width: 0;
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0;
+  }
+  .resume-builder-left {
+    border-right: none;
+    border-bottom: 1.5px solid #1b263b;
+  }
+  .resume-builder-right {
+    border-top: none;
+  }
+}

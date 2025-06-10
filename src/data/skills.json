@@ -1,0 +1,9 @@
+{
+  "Frontend": ["HTML", "CSS", "JavaScript", "React", "Vue.js", "Angular", "TypeScript", "Redux"],
+  "Backend": ["Node.js", "Express", "Django", "Flask", "Spring Boot", "Java", "Python", "PHP", "C#"],
+  "Database": ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "Oracle", "Redis"],
+  "Management": ["Project Management", "Agile", "Scrum", "JIRA", "Trello"],
+  "Data Visualization": ["Tableau", "Power BI", "D3.js", "Chart.js", "Matplotlib"],
+  "UI/UX Designing": ["Figma", "Adobe XD", "Sketch", "InVision", "Photoshop", "Illustrator"],
+  "DevOps": ["Docker", "Kubernetes", "AWS", "Azure", "CI/CD", "Git", "Jenkins"]
+}

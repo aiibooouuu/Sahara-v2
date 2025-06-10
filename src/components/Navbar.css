@@ -1,0 +1,50 @@
+/* src/styles/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b263b;
+  padding: 1rem 2rem;
+  color: white;
+  height: 60px;
+  
+}
+
+
+
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 90px;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-right a {
+  margin-left: 1.5rem;
+  color: #b0e0e6;
+  transition: color 0.3s;
+}
+
+.navbar-right a:hover {
+  color: white;
+}
+
+.navbar-home-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-home-link:hover{
+  color: white;
+}

@@ -1,0 +1,292 @@
+.employer-layout {
+display: flex;
+min-height: 100vh;
+background: #f8fafc;
+}
+
+.employer-main-content {
+flex: 1;
+padding: 2.5rem 2rem;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+
+.employer-row {
+display: flex;
+gap: 2rem;
+margin-bottom: 1.5rem;
+}
+
+.modern-card {
+background: #fff;
+border-radius: 18px;
+box-shadow: 0 4px 24px rgba(27,38,59,0.09);
+padding: 2rem 2.2rem;
+transition: box-shadow 0.18s;
+}
+
+.company-info {
+flex: 2;
+min-width: 320px;
+display: flex;
+flex-direction: column;
+gap: 1.2rem;
+}
+
+.company-header {
+display: flex;
+align-items: center;
+gap: 1.3rem;
+margin-bottom: 1rem;
+}
+
+.company-logo {
+width: 64px;
+height: 64px;
+border-radius: 12px;
+object-fit: cover;
+background: #e3eafc;
+border: 2px solid #e3eafc;
+}
+
+.company-title {
+font-size: 2rem;
+font-weight: 700;
+color: #1976d2;
+margin-bottom: 0.2rem;
+}
+
+.company-industry {
+font-size: 1.1rem;
+color: #415a77;
+font-weight: 500;
+}
+
+.company-details-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 0.7rem 2.2rem;
+}
+
+.company-label {
+font-weight: 600;
+color: #415a77;
+margin-right: 0.3rem;
+}
+
+.company-about {
+margin-top: 1.2rem;
+font-size: 1.05rem;
+color: #1b263b;
+background: #f8fafc;
+border-radius: 8px;
+padding: 1rem 1.2rem;
+}
+
+.company-social {
+grid-column: 1 / -1;
+}
+
+.company-strength {
+flex: 1;
+min-width: 260px;
+max-width: 340px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+background: linear-gradient(120deg, #fafdff 70%, #e3eafc 100%);
+box-shadow: 0 4px 24px rgba(27,38,59,0.10);
+border-radius: 18px;
+padding: 2.5rem 1.5rem 2.2rem 1.5rem;
+margin-top: 0.5rem;
+gap: 0.7rem;
+position: relative;
+overflow: hidden;
+border: 1px solid #e3eafc;
+}
+
+.strength-icon-circle {
+margin-bottom: 1.1rem;
+background: #fff;
+border-radius: 50%;
+box-shadow: 0 2px 8px rgba(27,38,59,0.07);
+padding: 0.7rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.strength-label {
+font-size: 1.12rem;
+color: #415a77;
+font-weight: 700;
+margin-bottom: 0.1rem;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+opacity: 0.85;
+}
+
+.strength-number {
+font-size: 3.2rem;
+font-weight: 800;
+color: #1976d2;
+margin: 0.1rem 0 0.1rem 0;
+letter-spacing: 2px;
+background: linear-gradient(90deg, #1976d2 60%, #415a77 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-shadow: none;
+}
+
+.strength-subtext {
+font-size: 1.08rem;
+color: #607d8b;
+margin-bottom: 0.7rem;
+letter-spacing: 0.2px;
+font-weight: 500;
+opacity: 0.85;
+}
+
+.strength-extra {
+width: 100%;
+margin-top: 0.7rem;
+display: flex;
+flex-direction: column;
+gap: 0.7rem;
+font-size: 1.04rem;
+color: #415a77;
+background: #fafdff;
+border-radius: 10px;
+padding: 1rem 1.1rem;
+border: 1px solid #e3eafc;
+box-shadow: none;
+}
+
+.strength-extra-label {
+font-weight: 600;
+margin-right: 0.3rem;
+color: #1976d2;
+letter-spacing: 0.1px;
+}
+
+.strength-metric-row {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 0.7rem;
+}
+
+.strength-metric-value {
+font-weight: 500;
+color: #1b263b;
+letter-spacing: 0.2px;
+}
+
+.strength-growth {
+font-size: 0.98rem;
+color: #388e3c;
+background: #e8f5e9;
+border-radius: 6px;
+padding: 0.1rem 0.6rem;
+margin-left: 0.5rem;
+font-weight: 600;
+letter-spacing: 0.2px;
+}
+
+.strength-attrition {
+font-size: 0.98rem;
+color: #d32f2f;
+background: #ffebee;
+border-radius: 6px;
+padding: 0.1rem 0.6rem;
+margin-left: 0.5rem;
+font-weight: 600;
+letter-spacing: 0.2px;
+}
+
+.company-strength::after {
+content: "";
+position: absolute;
+top: -30px;
+right: -30px;
+width: 90px;
+height: 90px;
+background: radial-gradient(circle, #1976d2 0%, transparent 70%);
+opacity: 0.06;
+z-index: 0;
+pointer-events: none;
+animation: highlightMove 7s linear infinite alternate;
+}
+
+@keyframes highlightMove {
+0% { top: -30px; right: -30px; }
+100% { top: 30px; right: 10px; }
+}
+
+.employer-table-container {
+width: 100%;
+background: #fff;
+border-radius: 14px;
+box-shadow: 0 2px 12px rgba(27,38,59,0.07);
+padding: 1.5rem 2rem;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+color: #1b263b;
+}
+
+.employer-table-scroll {
+max-height: 400px;
+overflow-y: auto;
+margin-top: 1rem;
+border-radius: 10px;
+border: 1px solid #e3eafc;
+}
+
+.employer-table {
+width: 100%;
+border-collapse: collapse;
+background: #fff;
+}
+
+.employer-table th, .employer-table td {
+border-bottom: 1px solid #e3eafc;
+padding: 0.8rem 0.7rem;
+text-align: left;
+}
+
+.employer-table th {
+background: #e3eafc;
+color: #415a77;
+font-weight: 600;
+position: sticky;
+top: 0;
+z-index: 1;
+}
+
+@media (max-width: 1100px) {
+.employer-row {
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.company-details-grid {
+    grid-template-columns: 1fr;
+}
+}
+
+@media (max-width: 700px) {
+.employer-main-content {
+    padding: 1rem 0.2rem;
+}
+.modern-card {
+    padding: 1rem 0.7rem;
+    border-radius: 10px;
+}
+.company-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+}

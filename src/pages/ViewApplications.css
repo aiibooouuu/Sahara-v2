@@ -1,0 +1,135 @@
+.view-applications-layout {
+display: flex;
+min-height: 100vh;
+background-color: #f8fafc;
+background-image:
+    radial-gradient(circle, #e3eafc 1.5px, transparent 1.5px),
+    radial-gradient(circle, #e3eafc 1.5px, transparent 1.5px);
+background-size: 32px 32px;
+background-position: 0 0, 16px 16px;
+}
+
+.view-applications-main-content {
+flex: 1;
+padding: 2.5rem 2rem;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+
+.view-applications-title {
+font-size: 1.5rem;
+font-weight: 700;
+color: #1976d2;
+margin-bottom: 1.5rem;
+letter-spacing: 0.5px;
+}
+
+.view-applications-list {
+display: flex;
+flex-direction: column;
+gap: 2rem;
+max-width: 600px;
+margin: 0 auto;
+}
+
+.view-applications-card {
+background: #fff;
+border-radius: 16px;
+box-shadow: 0 4px 24px rgba(27,38,59,0.09);
+padding: 2rem 2.2rem;
+display: flex;
+flex-direction: column;
+gap: 1.1rem;
+position: relative;
+}
+
+.view-applications-card-header {
+display: flex;
+align-items: center;
+gap: 1.2rem;
+margin-bottom: 0.7rem;
+}
+
+.view-applications-avatar {
+width: 48px;
+height: 48px;
+background: #e3eafc;
+color: #1976d2;
+font-size: 1.7rem;
+font-weight: 700;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.view-applications-name {
+font-size: 1.18rem;
+font-weight: 700;
+color: #1b263b;
+}
+
+.view-applications-job {
+font-size: 1.02rem;
+color: #415a77;
+margin-top: 0.2rem;
+}
+
+.view-applications-info {
+font-size: 1.01rem;
+color: #1b263b;
+display: flex;
+flex-direction: column;
+gap: 0.3rem;
+}
+
+.view-applications-resume-link {
+color: #1976d2;
+text-decoration: underline;
+font-weight: 600;
+margin-top: 0.5rem;
+}
+
+.view-applications-empty {
+color: #b0b7c3;
+font-weight: 500;
+text-align: center;
+font-size: 1.1rem;
+margin-bottom: 2rem;
+}
+
+/* Dummy card for preview */
+.view-applications-card--dummy {
+background: #f8fafc;
+border: 2px dashed #e3eafc;
+box-shadow: none;
+min-height: 180px;
+opacity: 0.8;
+}
+
+.dummy-avatar {
+width: 48px;
+height: 48px;
+background: #e3eafc;
+border-radius: 50%;
+margin-right: 1.2rem;
+}
+
+.dummy-line {
+height: 16px;
+background: #e3eafc;
+border-radius: 6px;
+margin-bottom: 0.4rem;
+}
+
+@media (max-width: 700px) {
+.view-applications-main-content {
+    padding: 1rem 0.2rem;
+}
+.view-applications-card,
+.view-applications-card--dummy {
+    padding: 1.1rem 0.7rem;
+    border-radius: 10px;
+}
+}

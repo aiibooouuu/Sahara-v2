@@ -1,0 +1,36 @@
+/* src/styles/Sidebar.css */
+
+.sidebar {
+  width: 220px;
+  background-color: #415a77;
+  color: white;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  /* Add checkered background */
+  background-image:
+    linear-gradient(45deg, #3a4a62 25%, transparent 25%, transparent 75%, #3a4a62 75%),
+    linear-gradient(45deg, #3a4a62 25%, transparent 25%, transparent 75%, #3a4a62 75%);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+  height: 95vh;
+  position:relative;
+  overflow: hidden;
+  
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: white;
+  font-size: 1.05rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.sidebar a:hover {
+  background-color: #1b263b;
+}

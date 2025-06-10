@@ -1,0 +1,273 @@
+/* src/styles/HomePage.css */
+
+/* Reset and base styles */
+body {
+  background: white;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Google-like homepage container */
+.google-homepage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+background-image:
+    radial-gradient(rgba(10, 22, 78, 0.253) 2px, transparent 2.5px);
+background-size: 40px 40px;
+background-position: center center;
+  min-width: 100vw;
+  
+}
+
+/* Centered content box */
+.center-content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 420px;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 2.5rem 2rem 2rem 2rem;
+  background-color: #f8fafc52;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(21, 101, 192, 0.40);
+  backdrop-filter: blur(2px);
+}
+
+/* Title styling */
+.google-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1565c0;
+  letter-spacing: 2px;
+  margin-bottom: 1.2rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-shadow: 0 2px 8px rgba(21,101,192,0.06);
+  text-align: center;
+}
+
+/* Tagline with typing effect */
+.tagline {
+  font-size: 1.25rem;
+  color: #1976d2;
+  margin-bottom: 2.2rem;
+  min-height: 2.2rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Role selection box */
+.role-box {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(21, 101, 192, 0.08);
+  padding: 2rem 2rem 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+}
+
+.role-label {
+  font-size: 1.1rem;
+  color: #0d47a1;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+/* Role buttons */
+.role-buttons {
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.role-btn {
+  padding: 0.8rem 2rem;
+  background-color: #1b263b;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.role-btn:hover, .role-btn:focus {
+  background-color: white;
+  transform: translateY(-2px) scale(1);
+  box-shadow: 0 4px 16px rgba(21, 101, 192, 0.45);
+  color: #1b263b;
+}
+
+/* Modal styles */
+.modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(10, 23, 78, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: whitesmoke;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(21, 101, 192, 0.308);
+  position: relative;
+  min-width: 320px;
+  max-width: 90vw;
+  color: #1b263b;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #1565c0;
+  cursor: pointer;
+}
+
+.popup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+.popup-form label {
+  font-weight: 500;
+  color: #0d47a1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.popup-form input,
+.popup-form textarea {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #b0bec5;
+  font-size: 1rem;
+  resize: none;
+}
+
+.popup-form button[type="submit"] {
+  margin-top: 1rem;
+}
+
+.styled-fieldset {
+  --main-color: #4a4d96;
+  border: 2px var(--main-color) solid;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  margin-bottom: 0.7rem;
+  padding: 0.5rem 0.75rem 0.75rem 0.75rem;
+}
+
+.styled-fieldset legend {
+  color: var(--main-color);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.styled-fieldset input[type="text"],
+.styled-fieldset input[type="email"],
+.styled-fieldset input[type="date"],
+.styled-fieldset textarea {
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 0.3rem 0.5rem 0.2rem 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  resize: none;
+  color: #22223b;
+}
+
+.styled-fieldset textarea {
+  min-height: 60px;
+  font-family: inherit;
+}
+
+@media (max-width: 700px) {
+  .google-homepage {
+    min-width: 100vw;
+    padding: 0;
+  }
+  .center-content {
+    max-width: 98vw;
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(21, 101, 192, 0.18);
+  }
+  .google-title {
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+  }
+  .tagline {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    min-height: 1.5rem;
+  }
+  .role-box {
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
+    max-width: 98vw;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  .role-label {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .role-buttons {
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+  }
+  .role-btn {
+    width: 100%;
+    padding: 0.7rem 0;
+    font-size: 0.98rem;
+  }
+  .modal-content {
+    padding: 1.2rem 0.7rem;
+    min-width: 0;
+    max-width: 98vw;
+    border-radius: 10px;
+  }
+  .popup-form label {
+    font-size: 0.98rem;
+  }
+  .styled-fieldset {
+    font-size: 0.93rem;
+    padding: 0.4rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 5px;
+  }
+  .styled-fieldset legend {
+    font-size: 0.97rem;
+  }
+}

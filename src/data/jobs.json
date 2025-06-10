@@ -1,0 +1,472 @@
+[
+  {
+    "company": "TechNova",
+    "position": "Frontend Developer",
+    "skills": ["React", "JavaScript", "CSS"],
+    "salary": "₹7,00,000 - ₹10,00,000",
+    "lastDate": "2025-07-01",
+    "location": "Mumbai, India",
+    "companyDescription": "TechNova is a leading software solutions provider specializing in web and mobile applications.",
+    "jobDescription": "As a Frontend Developer, you will build modern, responsive user interfaces using React and collaborate with backend teams."
+  },
+  {
+    "company": "DataWiz",
+    "position": "Data Analyst",
+    "skills": ["Python", "SQL", "Excel"],
+    "salary": "₹6,00,000 - ₹9,00,000",
+    "lastDate": "2025-06-25",
+    "location": "Bangalore, India",
+    "companyDescription": "DataWiz delivers advanced analytics and business intelligence solutions for global clients.",
+    "jobDescription": "Analyze large datasets, generate reports, and provide actionable insights to support business decisions."
+  },
+  {
+    "company": "Cloudify",
+    "position": "DevOps Engineer",
+    "skills": ["AWS", "Docker", "CI/CD"],
+    "salary": "₹8,00,000 - ₹12,00,000",
+    "lastDate": "2025-07-10",
+    "location": "Remote",
+    "companyDescription": "Cloudify helps enterprises migrate, manage, and optimize their cloud infrastructure.",
+    "jobDescription": "Implement CI/CD pipelines, manage AWS resources, and automate deployment processes."
+  },
+  {
+    "company": "InnoSoft",
+    "position": "Backend Developer",
+    "skills": ["Node.js", "Express", "MongoDB"],
+    "salary": "₹7,50,000 - ₹11,00,000",
+    "lastDate": "2025-07-05",
+    "location": "Hyderabad, India",
+    "companyDescription": "InnoSoft specializes in scalable backend systems for fintech and e-commerce.",
+    "jobDescription": "Develop REST APIs, integrate databases, and ensure high performance and responsiveness."
+  },
+  {
+    "company": "AppWorks",
+    "position": "Mobile App Developer",
+    "skills": ["Flutter", "Dart", "Firebase"],
+    "salary": "₹6,50,000 - ₹10,00,000",
+    "lastDate": "2025-07-15",
+    "location": "Pune, India",
+    "companyDescription": "AppWorks creates innovative mobile solutions for startups and enterprises.",
+    "jobDescription": "Design and develop cross-platform mobile apps using Flutter and integrate with Firebase."
+  },
+  {
+    "company": "CyberGuard",
+    "position": "Cybersecurity Analyst",
+    "skills": ["Network Security", "Python", "SIEM"],
+    "salary": "₹8,00,000 - ₹13,00,000",
+    "lastDate": "2025-07-20",
+    "location": "Delhi, India",
+    "companyDescription": "CyberGuard provides cybersecurity services and solutions to protect digital assets.",
+    "jobDescription": "Monitor security events, analyze threats, and implement security measures."
+  },
+  {
+    "company": "FinEdge",
+    "position": "Full Stack Developer",
+    "skills": ["React", "Node.js", "SQL"],
+    "salary": "₹8,50,000 - ₹12,50,000",
+    "lastDate": "2025-07-18",
+    "location": "Chennai, India",
+    "companyDescription": "FinEdge builds financial technology platforms for investment and banking.",
+    "jobDescription": "Work on both frontend and backend, develop scalable web applications, and maintain databases."
+  },
+  {
+    "company": "GreenTech",
+    "position": "IoT Engineer",
+    "skills": ["C", "IoT", "Embedded Systems"],
+    "salary": "₹7,00,000 - ₹11,00,000",
+    "lastDate": "2025-07-22",
+    "location": "Ahmedabad, India",
+    "companyDescription": "GreenTech develops IoT solutions for smart agriculture and energy management.",
+    "jobDescription": "Design embedded systems, program microcontrollers, and deploy IoT devices."
+  },
+  {
+    "company": "VisionAI",
+    "position": "Machine Learning Engineer",
+    "skills": ["Python", "TensorFlow", "Pandas"],
+    "salary": "₹9,00,000 - ₹15,00,000",
+    "lastDate": "2025-07-30",
+    "location": "Bangalore, India",
+    "companyDescription": "VisionAI is a pioneer in AI-powered computer vision and analytics.",
+    "jobDescription": "Build and train machine learning models, preprocess data, and deploy AI solutions."
+  },
+  {
+    "company": "WebNest",
+    "position": "UI/UX Designer",
+    "skills": ["Figma", "Adobe XD", "CSS"],
+    "salary": "₹6,00,000 - ₹9,00,000",
+    "lastDate": "2025-07-12",
+    "location": "Remote",
+    "companyDescription": "WebNest crafts beautiful and user-friendly web experiences for global brands.",
+    "jobDescription": "Design wireframes, prototypes, and collaborate with developers to implement UI/UX."
+  },
+  {
+    "company": "SecureIT",
+    "position": "Security Engineer",
+    "skills": ["Linux", "Python", "Firewalls"],
+    "salary": "₹8,50,000 - ₹13,00,000",
+    "lastDate": "2025-07-25",
+    "location": "Gurgaon, India",
+    "companyDescription": "SecureIT offers advanced security solutions for enterprise networks.",
+    "jobDescription": "Configure firewalls, monitor network traffic, and automate security tasks."
+  },
+  {
+    "company": "MarketMinds",
+    "position": "Digital Marketing Specialist",
+    "skills": ["SEO", "Google Ads", "Analytics"],
+    "salary": "₹5,00,000 - ₹8,00,000",
+    "lastDate": "2025-07-28",
+    "location": "Kolkata, India",
+    "companyDescription": "MarketMinds is a digital marketing agency focused on ROI-driven campaigns.",
+    "jobDescription": "Plan and execute digital marketing strategies, manage SEO and paid ads."
+  },
+  {
+    "company": "AutoDrive",
+    "position": "Embedded Systems Engineer",
+    "skills": ["C++", "Microcontrollers", "RTOS"],
+    "salary": "₹7,50,000 - ₹11,50,000",
+    "lastDate": "2025-07-19",
+    "location": "Pune, India",
+    "companyDescription": "AutoDrive develops embedded solutions for automotive automation.",
+    "jobDescription": "Develop firmware for automotive systems and work with real-time operating systems."
+  },
+  {
+    "company": "MedTech",
+    "position": "Software Tester",
+    "skills": ["Selenium", "Java", "Manual Testing"],
+    "salary": "₹5,50,000 - ₹8,50,000",
+    "lastDate": "2025-07-14",
+    "location": "Noida, India",
+    "companyDescription": "MedTech creates healthcare software for hospitals and clinics.",
+    "jobDescription": "Test software applications, write test cases, and automate regression tests."
+  },
+  {
+    "company": "EduCore",
+    "position": "Content Developer",
+    "skills": ["Content Writing", "HTML", "MS Office"],
+    "salary": "₹4,50,000 - ₹7,00,000",
+    "lastDate": "2025-07-21",
+    "location": "Remote",
+    "companyDescription": "EduCore produces educational content and e-learning solutions.",
+    "jobDescription": "Develop engaging content for online courses and digital platforms."
+  },
+  {
+    "company": "RetailX",
+    "position": "Business Analyst",
+    "skills": ["Excel", "SQL", "Power BI"],
+    "salary": "₹6,50,000 - ₹10,00,000",
+    "lastDate": "2025-07-17",
+    "location": "Mumbai, India",
+    "companyDescription": "RetailX provides analytics and consulting for retail businesses.",
+    "jobDescription": "Analyze business data, create dashboards, and support decision-making."
+  },
+  {
+    "company": "SmartGrid",
+    "position": "Electrical Engineer",
+    "skills": ["MATLAB", "Simulink", "Power Systems"],
+    "salary": "₹7,00,000 - ₹10,50,000",
+    "lastDate": "2025-07-23",
+    "location": "Chennai, India",
+    "companyDescription": "SmartGrid is a leader in smart energy and power grid solutions.",
+    "jobDescription": "Design and simulate power systems, work on grid automation projects."
+  },
+  {
+    "company": "BuildRight",
+    "position": "Civil Engineer",
+    "skills": ["AutoCAD", "STAAD Pro", "Project Management"],
+    "salary": "₹6,00,000 - ₹9,50,000",
+    "lastDate": "2025-07-29",
+    "location": "Delhi, India",
+    "companyDescription": "BuildRight is a construction and infrastructure development firm.",
+    "jobDescription": "Plan, design, and oversee construction projects using modern tools."
+  },
+  {
+    "company": "EcoLogic",
+    "position": "Environmental Engineer",
+    "skills": ["GIS", "Environmental Impact", "AutoCAD"],
+    "salary": "₹6,50,000 - ₹10,00,000",
+    "lastDate": "2025-07-26",
+    "location": "Bangalore, India",
+    "companyDescription": "EcoLogic provides environmental consulting and sustainability solutions.",
+    "jobDescription": "Conduct environmental impact assessments and prepare technical reports."
+  },
+  {
+    "company": "QuantumSoft",
+    "position": "Software Engineer",
+    "skills": ["Java", "Spring Boot", "MySQL"],
+    "salary": "₹8,00,000 - ₹12,00,000",
+    "lastDate": "2025-07-31",
+    "location": "Hyderabad, India",
+    "companyDescription": "QuantumSoft delivers enterprise software for banking and insurance.",
+    "jobDescription": "Develop backend services, integrate databases, and maintain code quality."
+  },
+  {
+    "company": "AgroNext",
+    "position": "Data Scientist",
+    "skills": ["Python", "Machine Learning", "R"],
+    "salary": "₹9,00,000 - ₹14,00,000",
+    "lastDate": "2025-07-27",
+    "location": "Nagpur, India",
+    "companyDescription": "AgroNext leverages data science for smart agriculture solutions.",
+    "jobDescription": "Analyze agricultural data, build predictive models, and support R&D."
+  },
+  {
+    "company": "UrbanTech",
+    "position": "Android Developer",
+    "skills": ["Kotlin", "Android Studio", "Java"],
+    "salary": "₹7,00,000 - ₹11,00,000",
+    "lastDate": "2025-07-24",
+    "location": "Bangalore, India",
+    "companyDescription": "UrbanTech develops mobile apps for urban mobility and smart cities.",
+    "jobDescription": "Develop and maintain Android applications for various urban solutions."
+  },
+  {
+    "company": "BlueOcean",
+    "position": "Cloud Engineer",
+    "skills": ["Azure", "Docker", "Kubernetes"],
+    "salary": "₹8,50,000 - ₹13,50,000",
+    "lastDate": "2025-07-16",
+    "location": "Remote",
+    "companyDescription": "BlueOcean provides cloud migration and DevOps services.",
+    "jobDescription": "Manage cloud infrastructure, automate deployments, and ensure scalability."
+  },
+  {
+    "company": "FinEdge",
+    "position": "QA Engineer",
+    "skills": ["Selenium", "Python", "Jenkins"],
+    "salary": "₹6,50,000 - ₹10,00,000",
+    "lastDate": "2025-07-13",
+    "location": "Chennai, India",
+    "companyDescription": "FinEdge builds financial technology platforms for investment and banking.",
+    "jobDescription": "Automate test cases, perform manual testing, and integrate CI/CD pipelines."
+  },
+  {
+    "company": "TechNova",
+    "position": "React Native Developer",
+    "skills": ["React Native", "JavaScript", "Redux"],
+    "salary": "₹7,50,000 - ₹11,50,000",
+    "lastDate": "2025-07-11",
+    "location": "Mumbai, India",
+    "companyDescription": "TechNova is a leading software solutions provider specializing in web and mobile applications.",
+    "jobDescription": "Develop cross-platform mobile apps using React Native and Redux."
+  },
+  {
+    "company": "DataWiz",
+    "position": "Business Intelligence Analyst",
+    "skills": ["Power BI", "SQL", "Data Visualization"],
+    "salary": "₹7,00,000 - ₹10,50,000",
+    "lastDate": "2025-07-09",
+    "location": "Bangalore, India",
+    "companyDescription": "DataWiz delivers advanced analytics and business intelligence solutions for global clients.",
+    "jobDescription": "Create dashboards, analyze business data, and provide actionable insights."
+  },
+  {
+    "company": "Cloudify",
+    "position": "System Administrator",
+    "skills": ["Linux", "Shell Scripting", "AWS"],
+    "salary": "₹6,50,000 - ₹10,00,000",
+    "lastDate": "2025-07-08",
+    "location": "Remote",
+    "companyDescription": "Cloudify helps enterprises migrate, manage, and optimize their cloud infrastructure.",
+    "jobDescription": "Maintain servers, automate tasks, and ensure system reliability."
+  },
+  {
+    "company": "InnoSoft",
+    "position": "PHP Developer",
+    "skills": ["PHP", "Laravel", "MySQL"],
+    "salary": "₹6,00,000 - ₹9,00,000",
+    "lastDate": "2025-07-07",
+    "location": "Hyderabad, India",
+    "companyDescription": "InnoSoft specializes in scalable backend systems for fintech and e-commerce.",
+    "jobDescription": "Develop web applications using PHP and Laravel, manage MySQL databases."
+  },
+  {
+    "company": "AppWorks",
+    "position": "iOS Developer",
+    "skills": ["Swift", "Xcode", "Objective-C"],
+    "salary": "₹7,00,000 - ₹11,00,000",
+    "lastDate": "2025-07-06",
+    "location": "Pune, India",
+    "companyDescription": "AppWorks creates innovative mobile solutions for startups and enterprises.",
+    "jobDescription": "Develop and maintain iOS applications using Swift and Objective-C."
+  },
+  {
+    "company": "CyberGuard",
+    "position": "Penetration Tester",
+    "skills": ["Kali Linux", "Python", "Burp Suite"],
+    "salary": "₹9,00,000 - ₹14,00,000",
+    "lastDate": "2025-07-04",
+    "location": "Delhi, India",
+    "companyDescription": "CyberGuard provides cybersecurity services and solutions to protect digital assets.",
+    "jobDescription": "Conduct penetration tests, identify vulnerabilities, and report findings."
+  },
+  {
+    "company": "FinEdge",
+    "position": "Product Manager",
+    "skills": ["Agile", "Scrum", "JIRA"],
+    "salary": "₹10,00,000 - ₹16,00,000",
+    "lastDate": "2025-07-03",
+    "location": "Chennai, India",
+    "companyDescription": "FinEdge builds financial technology platforms for investment and banking.",
+    "jobDescription": "Lead product development, manage agile teams, and define product roadmaps."
+  },
+  {
+    "company": "GreenTech",
+    "position": "Hardware Engineer",
+    "skills": ["PCB Design", "VHDL", "Microcontrollers"],
+    "salary": "₹7,50,000 - ₹12,00,000",
+    "lastDate": "2025-07-02",
+    "location": "Ahmedabad, India",
+    "companyDescription": "GreenTech develops IoT solutions for smart agriculture and energy management.",
+    "jobDescription": "Design PCBs, program microcontrollers, and test hardware prototypes."
+  },
+  {
+    "company": "VisionAI",
+    "position": "AI Researcher",
+    "skills": ["Deep Learning", "Python", "PyTorch"],
+    "salary": "₹10,00,000 - ₹18,00,000",
+    "lastDate": "2025-08-01",
+    "location": "Bangalore, India",
+    "companyDescription": "VisionAI is a pioneer in AI-powered computer vision and analytics.",
+    "jobDescription": "Research and develop deep learning models for computer vision applications."
+  },
+  {
+    "company": "WebNest",
+    "position": "Web Designer",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "salary": "₹5,50,000 - ₹8,50,000",
+    "lastDate": "2025-08-02",
+    "location": "Remote",
+    "companyDescription": "WebNest crafts beautiful and user-friendly web experiences for global brands.",
+    "jobDescription": "Design and implement responsive web layouts and collaborate with developers."
+  },
+  {
+    "company": "SecureIT",
+    "position": "Network Engineer",
+    "skills": ["Networking", "Cisco", "Firewall"],
+    "salary": "₹7,00,000 - ₹11,00,000",
+    "lastDate": "2025-08-03",
+    "location": "Gurgaon, India",
+    "companyDescription": "SecureIT offers advanced security solutions for enterprise networks.",
+    "jobDescription": "Configure and maintain network devices, troubleshoot issues, and ensure security."
+  },
+  {
+    "company": "MarketMinds",
+    "position": "Content Marketer",
+    "skills": ["Content Writing", "SEO", "Analytics"],
+    "salary": "₹5,50,000 - ₹8,50,000",
+    "lastDate": "2025-08-04",
+    "location": "Kolkata, India",
+    "companyDescription": "MarketMinds is a digital marketing agency focused on ROI-driven campaigns.",
+    "jobDescription": "Create marketing content, optimize for SEO, and analyze campaign performance."
+  },
+  {
+    "company": "AutoDrive",
+    "position": "Automation Engineer",
+    "skills": ["PLC", "SCADA", "Python"],
+    "salary": "₹7,50,000 - ₹12,00,000",
+    "lastDate": "2025-08-05",
+    "location": "Pune, India",
+    "companyDescription": "AutoDrive develops embedded solutions for automotive automation.",
+    "jobDescription": "Develop automation scripts, configure PLCs, and maintain SCADA systems."
+  },
+  {
+    "company": "MedTech",
+    "position": "Bioinformatics Analyst",
+    "skills": ["Python", "R", "Bioinformatics"],
+    "salary": "₹8,00,000 - ₹13,00,000",
+    "lastDate": "2025-08-06",
+    "location": "Noida, India",
+    "companyDescription": "MedTech creates healthcare software for hospitals and clinics.",
+    "jobDescription": "Analyze biological data, develop bioinformatics pipelines, and support research."
+  },
+  {
+    "company": "EduCore",
+    "position": "Instructional Designer",
+    "skills": ["Storyline", "MS Office", "eLearning"],
+    "salary": "₹6,00,000 - ₹9,00,000",
+    "lastDate": "2025-08-07",
+    "location": "Remote",
+    "companyDescription": "EduCore produces educational content and e-learning solutions.",
+    "jobDescription": "Design instructional materials, create e-learning modules, and collaborate with SMEs."
+  },
+  {
+    "company": "RetailX",
+    "position": "Sales Analyst",
+    "skills": ["Excel", "Salesforce", "Power BI"],
+    "salary": "₹6,50,000 - ₹10,00,000",
+    "lastDate": "2025-08-08",
+    "location": "Mumbai, India",
+    "companyDescription": "RetailX provides analytics and consulting for retail businesses.",
+    "jobDescription": "Analyze sales data, generate reports, and support sales strategy."
+  },
+  {
+    "company": "SmartGrid",
+    "position": "Power Systems Engineer",
+    "skills": ["Power Systems", "MATLAB", "ETAP"],
+    "salary": "₹8,00,000 - ₹12,00,000",
+    "lastDate": "2025-08-09",
+    "location": "Chennai, India",
+    "companyDescription": "SmartGrid is a leader in smart energy and power grid solutions.",
+    "jobDescription": "Design power systems, perform simulations, and support grid modernization."
+  },
+  {
+    "company": "BuildRight",
+    "position": "Structural Engineer",
+    "skills": ["STAAD Pro", "AutoCAD", "Revit"],
+    "salary": "₹7,00,000 - ₹11,00,000",
+    "lastDate": "2025-08-10",
+    "location": "Delhi, India",
+    "companyDescription": "BuildRight is a construction and infrastructure development firm.",
+    "jobDescription": "Design structural components, prepare drawings, and coordinate with architects."
+  },
+  {
+    "company": "EcoLogic",
+    "position": "Sustainability Consultant",
+    "skills": ["Sustainability", "LEED", "AutoCAD"],
+    "salary": "₹7,50,000 - ₹12,00,000",
+    "lastDate": "2025-08-11",
+    "location": "Bangalore, India",
+    "companyDescription": "EcoLogic provides environmental consulting and sustainability solutions.",
+    "jobDescription": "Advise clients on sustainability practices and prepare LEED documentation."
+  },
+  {
+    "company": "QuantumSoft",
+    "position": "Java Developer",
+    "skills": ["Java", "Spring", "Hibernate"],
+    "salary": "₹7,50,000 - ₹12,00,000",
+    "lastDate": "2025-08-12",
+    "location": "Hyderabad, India",
+    "companyDescription": "QuantumSoft delivers enterprise software for banking and insurance.",
+    "jobDescription": "Develop Java applications, integrate with databases, and maintain code quality."
+  },
+  {
+    "company": "AgroNext",
+    "position": "Agricultural Data Analyst",
+    "skills": ["Python", "R", "Data Analysis"],
+    "salary": "₹6,50,000 - ₹10,50,000",
+    "lastDate": "2025-08-13",
+    "location": "Nagpur, India",
+    "companyDescription": "AgroNext leverages data science for smart agriculture solutions.",
+    "jobDescription": "Analyze agricultural datasets, create reports, and support decision-making."
+  },
+  {
+    "company": "UrbanTech",
+    "position": "iOS Developer",
+    "skills": ["Swift", "Objective-C", "Xcode"],
+    "salary": "₹7,00,000 - ₹11,00,000",
+    "lastDate": "2025-08-14",
+    "location": "Bangalore, India",
+    "companyDescription": "UrbanTech develops mobile apps for urban mobility and smart cities.",
+    "jobDescription": "Develop and maintain iOS applications for various urban solutions."
+  },
+  {
+    "company": "BlueOcean",
+    "position": "Cloud Solutions Architect",
+    "skills": ["AWS", "Azure", "Cloud Architecture"],
+    "salary": "₹12,00,000 - ₹20,00,000",
+    "lastDate": "2025-08-15",
+    "location": "Remote",
+    "companyDescription": "BlueOcean provides cloud migration and DevOps services.",
+    "jobDescription": "Design cloud architectures, lead migration projects, and ensure best practices."
+  }
+]

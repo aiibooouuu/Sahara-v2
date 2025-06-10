@@ -1,0 +1,209 @@
+/* Suggested: Applications.css */
+.applications-main-layout {
+display: flex;
+min-height: 100vh;
+background-color: white;
+background-image:
+    radial-gradient(rgba(10, 23, 78, 0.16) 2px, transparent 2.5px);
+background-size: 40px 40px;
+background-position: center center;
+}
+
+.applications-main-content {
+flex: 1;
+padding: 2.5rem 2rem;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+height: fit-content;
+}
+
+.applications-layout {
+display: flex;
+gap: 0; /* Remove gap for flush alignment */
+align-items: stretch;
+width: 100%;
+max-width: 1100px;
+height: fit-content;
+min-height: 520px;
+}
+
+.applications-form-section {
+flex: 1 1 0;
+max-width: 50%;
+min-width: 320px;
+background: #fff;
+border-radius: 18px 0 0 18px;
+box-shadow: 0 4px 24px rgba(27,38,59,0.09);
+padding: 2.2rem 2.5rem 2.2rem 2.5rem;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: relative;
+z-index: 1;
+border-radius: 16px;
+}
+
+
+
+.applications-form h2 {
+font-size: 1.35rem;
+color: #1b263b;
+font-weight: 700;
+margin-bottom: 1.5rem;
+letter-spacing: 0.5px;
+}
+
+.applications-form label {
+display: block;
+margin-bottom: 1.1rem;
+font-weight: 500;
+color: #1b263b;
+width: 100%;
+}
+
+.applications-form input,
+.applications-form textarea {
+width: 100%;
+margin-top: 0.3rem;
+padding: 0.7rem 1rem;
+border: 1.5px solid #e3eafc;
+border-radius: 8px;
+font-size: 1.04rem;
+background: #f8fafc;
+color: #1b263b;
+outline: none;
+resize: none;
+}
+
+.applications-form input:focus,
+.applications-form textarea:focus {
+border: 1.5px solid #1976d2;
+background: #f1f6fa;
+}
+
+.applications-submit-btn {
+margin-top: 1.5rem;
+padding: 0.8rem 1.7rem;
+background-color: #1b263b;
+color: #fff;
+border: none;
+border-radius: 8px;
+font-size: 1.09rem;
+font-weight: 700;
+cursor: pointer;
+transition: background 0.18s, box-shadow 0.18s;
+box-shadow: 0 2px 8px rgba(27,38,59,0.07);
+letter-spacing: 0.2px;
+}
+.applications-submit-btn:hover {
+background: #415a77;
+box-shadow: 0 4px 18px rgba(27,38,59,0.13);
+}
+
+.applications-preview-section {
+flex: 1 1 0;
+max-width: 50%;
+min-width: 320px;
+display: flex;
+justify-content: center;
+align-items: stretch;
+position: relative;
+background: transparent;
+height: fit-content;
+}
+
+.applications-preview-card {
+width: 100%;
+max-width: 100%;
+background: #f8fafc;
+border-radius: 0 18px 18px 0;
+box-shadow: 0 4px 24px rgba(27,38,59,0.09);
+padding: 2.2rem 1.7rem;
+display: flex;
+flex-direction: column;
+gap: 0.8rem;
+position: relative;
+z-index: 1;
+height: 100%;
+min-height: 100%;
+box-sizing: border-box;
+margin-left: 40px;
+}
+
+.applications-preview-card::after {
+content: "";
+position: absolute;
+bottom: -35px;
+left: -35px;
+width: 90px;
+height: 90px;
+background: radial-gradient(circle, #1976d2 0%, transparent 70%);
+opacity: 0.06;
+z-index: 0;
+pointer-events: none;
+}
+
+.applications-preview-card h3 {
+margin: 0 0 0.3rem 0;
+color: #1976d2;
+font-size: 1.4rem;
+font-weight: 700;
+letter-spacing: 0.5px;
+}
+
+.applications-preview-company,
+.applications-preview-location,
+.applications-preview-salary {
+color: #415a77;
+font-size: 1.07rem;
+margin-bottom: 0.2rem;
+font-weight: 500;
+}
+
+.applications-preview-description,
+.applications-preview-requirements {
+font-size: 1.01rem;
+color: #1b263b;
+margin-top: 0.5rem;
+background: #fff;
+border-radius: 7px;
+padding: 0.7rem 0.9rem;
+box-shadow: 0 1px 4px rgba(27,38,59,0.04);
+}
+
+.applications-preview-description strong,
+.applications-preview-requirements strong {
+color: #1976d2;
+font-weight: 600;
+}
+
+/* --- Responsive adjustments --- */
+@media (max-width: 900px) {
+.applications-layout {
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.applications-form-section,
+.applications-preview-card {
+    max-width: 99vw;
+    width: 100%;
+    padding: 1.2rem 0.7rem;
+    border-radius: 12px;
+    flex: unset;
+}
+}
+
+@media (max-width: 600px) {
+.applications-main-content {
+    padding: 1rem 0.2rem;
+}
+.applications-form-section,
+.applications-preview-card {
+    padding: 0.7rem 0.2rem;
+    border-radius: 8px;
+}
+.applications-preview-card h3 {
+    font-size: 1.1rem;
+}
+}
