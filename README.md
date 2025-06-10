@@ -92,23 +92,30 @@ sahara-new/
 ## 🖥️ How to Run Locally
 
 1. **Clone the repository:**
-   ````bash
+
+   ```bash
    git clone https://github.com/yourusername/sahara-job-portal.git
    cd sahara-job-portal/sahara-2
-    ```bash
-   ````
+
+   ```
+
 2. **Install Dependencies**
-   ````bash
+
+   ```bash
    npm install
-   ```bash
-   ````
+
+   ```
+
 3. **Start the development server**
-   ````bash
+
+   ```bash
    npm run dev
-   ```bash
-   ````
+
+   ```
+
 4. **Open in your own browser**
-   ````bash
-   Visit http://localhost:5173
+
    ```bash
-   ````
+   Visit http://localhost:5173
+
+   ```
