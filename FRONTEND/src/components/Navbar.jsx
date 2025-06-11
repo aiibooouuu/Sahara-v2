@@ -7,7 +7,7 @@ return (
     <div className="navbar-left">
         <a href="/" className="navbar-home-link">
         <img src="/logo-clean.png" alt="Sahara Logo" className="logo" />
-        <span className="brand">SAHARA</span>
+        {/* <span className="brand">SAHARA</span> */}
         </a>
     </div>
     <div className="navbar-right">
