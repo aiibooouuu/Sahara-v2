@@ -149,3 +149,5 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated'
     ],
 }
+
+SESSION_COOKIE_AGE = 21600
