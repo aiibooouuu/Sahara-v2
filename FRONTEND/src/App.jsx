@@ -9,6 +9,7 @@ import JobApplicationsPage from './pages/JobApplicationsPage';
 import ProfilePage from './pages/ProfilePage';
 import Applications from './pages/Applications';
 import ViewApplications from './pages/ViewApplications';
+import LoginPage  from './pages/LoginPage';
 function App() {
   return (
     <Router>
@@ -22,7 +23,7 @@ function App() {
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/jobsapplications" element={<Applications />} />
         <Route path="/viewapplications" element={<ViewApplications />} />
-
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
     </Router>
   );

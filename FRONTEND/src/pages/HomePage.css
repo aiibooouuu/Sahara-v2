@@ -271,3 +271,32 @@ background-position: center center;
     font-size: 0.97rem;
   }
 }
+
+.styled-select {
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 0.3rem 0.5rem 0.2rem 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  color: #22223b;
+  font-family: inherit;
+  appearance: none; /* Hide native arrow */
+  background-image: linear-gradient(45deg, transparent 50%, #4a4d96 50%),
+                    linear-gradient(135deg, #4a4d96 50%, transparent 50%);
+  background-position: calc(100% - 15px) center, calc(100% - 10px) center;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.styled-select:focus {
+  outline: none;
+}
+
+@media (max-width: 700px) {
+  .styled-select {
+    font-size: 0.93rem;
+    padding: 0.4rem 0.5rem 0.5rem 0.5rem;
+  }
+}

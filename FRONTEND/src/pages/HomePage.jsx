@@ -3,7 +3,7 @@ import Typical from "react-typical";
 import "./HomePage.css";
 import logo from "/public/logo-clean.png";
 import Navbar from "../components/Navbar";
-import { FaUser, FaGraduationCap, FaMapMarkerAlt, FaBirthdayCake, FaEnvelope, FaBuilding, FaIndustry, FaInfoCircle, FaCalendar } from "react-icons/fa";
+import { FaUser, FaMapMarkerAlt, FaBirthdayCake, FaEnvelope, FaBuilding, FaIndustry, FaInfoCircle, FaCalendar, FaLock, FaBriefcase} from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 function Modal({ show, onClose, children }) {
@@ -49,31 +49,46 @@ return (
 
     {/* Modal for Employee */}
     <Modal show={modalType === "employee"} onClose={() => setModalType(null)}>
-        <h2>Employee Details</h2>
+        <h2>Employee Registration</h2>
         <form className="popup-form"
         onSubmit={(e) => {
             e.preventDefault();
             setModalType(null);
             navigate("/employee");}}>
         <fieldset className="styled-fieldset">
-            <legend><FaUser /> Name</legend>
-            <input type="text" placeholder="Enter your name" required />
-        </fieldset>
-        <fieldset className="styled-fieldset">
-            <legend><FaGraduationCap /> Education</legend>
-            <input type="text" placeholder="Your education" required />
-        </fieldset>
-        <fieldset className="styled-fieldset">
-            <legend><FaMapMarkerAlt /> Location</legend>
-            <input type="text" placeholder="Your location" required />
-        </fieldset>
-        <fieldset className="styled-fieldset">
-            <legend><FaCalendar /> Date of Birth</legend>
-            <input type="date" required />
+            <legend><FaUser /> Username</legend>
+            <input type="text" placeholder="Enter Username (No Spaces)" required />
         </fieldset>
         <fieldset className="styled-fieldset">
             <legend><FaEnvelope /> Email</legend>
-            <input type="email" placeholder="Your email" required />
+            <input type="text" placeholder="Your email" required />
+        </fieldset>
+        <fieldset className="styled-fieldset">
+            <legend><FaLock /> Password</legend>
+            
+            <input
+            type="password"
+            placeholder="Your password"
+            required
+            style={{
+                backgroundColor: "transparent",
+                WebkitBoxShadow: "0 0 0px 1000px transparent inset",
+                boxShadow: "0 0 0px 1000px transparent inset",
+                WebkitTextFillColor: "#22223b",
+                caretColor: "#22223b",
+                outline : "none",
+                border : "none"
+            }}
+            />
+
+        </fieldset>
+        <fieldset className="styled-fieldset">
+            <legend><FaBriefcase /> Status</legend>
+            <select required className="styled-select">
+                <option value="">Select status</option>
+                <option value="employed">Employed</option>
+                <option value="unemployed">Unemployed</option>
+            </select>
         </fieldset>
         <button type="submit" className="role-btn">Submit</button>
         </form>
@@ -81,7 +96,7 @@ return (
 
     {/* Modal for Employer */}
     <Modal show={modalType === "employer"} onClose={() => setModalType(null)}>
-        <h2>Employer Details</h2>
+        <h2>Employer Registration</h2>
         <form className="popup-form"
         onSubmit={(e) => {
             e.preventDefault();

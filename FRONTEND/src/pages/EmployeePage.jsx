@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import './EmployeePage.css';
@@ -7,6 +7,7 @@ import jobsData from '../data/jobs.json';
 import { FaSearch } from 'react-icons/fa';
 import JobDetailsModal from '../components/JobDetailsModal'; // <-- New component
 import { useNavigate } from 'react-router-dom';
+import axios from "axios";
 
 function EmployeePage() {
 const [showResumeBuilder, setShowResumeBuilder] = useState(false);
@@ -20,6 +21,22 @@ const filteredJobs = jobsData.filter(job =>
     job.position.toLowerCase().includes(search.toLowerCase()) ||
     job.skills.join(' ').toLowerCase().includes(search.toLowerCase())
 );
+
+
+// useEffect(() => {
+// axios.get("http://localhost:8000/api/check-auth/", { withCredentials: true })
+//     .then(response => {
+//     console.log("Authenticated:", response.data);
+//     })
+//     .catch(error => {
+//     if (error.response && error.response.status === 401) {
+//         console.warn("Not authenticated. Redirecting...");
+//         navigate("/login");
+//     } else {
+//         console.error("Error:", error);
+//     }
+//     });
+// }, [navigate]);
 
 return (
     <>
